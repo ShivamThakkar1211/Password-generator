@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+  background-color: rgb(35, 35, 35);
+}
+.Pass-Gen
+{
+  min-height: 80vh;
+  min-width: 80vh;
+  position: relative;
+}
+
+.box{
+  position: absolute;
+  height: 20vh;
+  width: 50%;
+  background-color: rgb(162, 160, 160);
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0 4vh;
+}
+.box h4{
+  text-align: center;
+  margin-top: 2vh;
+
+}
+input{
+  border: none;
+  padding: 1vh 2vh;
+  min-width: 88%;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  margin-top: 2vh;
+}
+button {
+  padding: 1vh 2vh;
+  border-radius: 0 20px 20px 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  border-left: 1px solid black;
+}
+.range{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rang{
+  width: 2vh;
+}
+
+.diff
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 6vh;
+}
